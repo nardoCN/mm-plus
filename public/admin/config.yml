@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: nardoCN/mm-plus 
+  repo: nardoCN/mm-plus
 
 media_folder: content/assets
 public_folder: ../assets
