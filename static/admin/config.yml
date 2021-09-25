@@ -29,7 +29,7 @@ collections:
     i18n: true
     fields:
       - { name: path, label: Path, i18n: true }
-      - { name: date, label: Date, widget: date, 18n: true }
+      - { name: date, label: Date, widget: date, i18n: duplicate }
       - { name: title, label: Title, i18n: true }
       - { name: description, label: Description, i18n: true }
       - { name: body, label: Body, widget: markdown, i18n: true }
