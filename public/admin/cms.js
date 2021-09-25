@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "3dfdfaa3a38d527a496a";
+/******/ 	var hotCurrentHash = "ac8def6b8dae0545aeb3";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -934,8 +934,8 @@ setImmediate(function () {
     return;
   }
 
-  reactHotLoader.register(_netlifyIdentityWidget, "_netlifyIdentityWidget", "/Applications/XAMPP/xamppfiles/docs/netlify-projects/mm-plus/node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
-  reactHotLoader.register(addLoginListener, "addLoginListener", "/Applications/XAMPP/xamppfiles/docs/netlify-projects/mm-plus/node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
+  reactHotLoader.register(_netlifyIdentityWidget, "_netlifyIdentityWidget", "/Users/chunhan/Desktop/mm-plus/node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
+  reactHotLoader.register(addLoginListener, "addLoginListener", "/Users/chunhan/Desktop/mm-plus/node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
 })();
 
 ;
@@ -1006,8 +1006,8 @@ _netlifyCmsApp.default.registerPreviewStyle("cms.css");
     return;
   }
 
-  reactHotLoader.register(_netlifyCmsApp, "_netlifyCmsApp", "/Applications/XAMPP/xamppfiles/docs/netlify-projects/mm-plus/node_modules/gatsby-plugin-netlify-cms/cms.js");
-  reactHotLoader.register(_emitter, "_emitter", "/Applications/XAMPP/xamppfiles/docs/netlify-projects/mm-plus/node_modules/gatsby-plugin-netlify-cms/cms.js");
+  reactHotLoader.register(_netlifyCmsApp, "_netlifyCmsApp", "/Users/chunhan/Desktop/mm-plus/node_modules/gatsby-plugin-netlify-cms/cms.js");
+  reactHotLoader.register(_emitter, "_emitter", "/Users/chunhan/Desktop/mm-plus/node_modules/gatsby-plugin-netlify-cms/cms.js");
 })();
 
 ;
@@ -1654,8 +1654,8 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Applications/XAMPP/xamppfiles/docs/netlify-projects/mm-plus/node_modules/gatsby-plugin-netlify-cms/cms.js */"./node_modules/gatsby-plugin-netlify-cms/cms.js");
-module.exports = __webpack_require__(/*! /Applications/XAMPP/xamppfiles/docs/netlify-projects/mm-plus/node_modules/gatsby-plugin-netlify-cms/cms-identity.js */"./node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
+__webpack_require__(/*! /Users/chunhan/Desktop/mm-plus/node_modules/gatsby-plugin-netlify-cms/cms.js */"./node_modules/gatsby-plugin-netlify-cms/cms.js");
+module.exports = __webpack_require__(/*! /Users/chunhan/Desktop/mm-plus/node_modules/gatsby-plugin-netlify-cms/cms-identity.js */"./node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
 
 
 /***/ }),

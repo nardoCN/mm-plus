@@ -1,12 +1,12 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("/Applications/XAMPP/xamppfiles/docs/netlify-projects/mm-plus/node_modules/@reach/router/index.js"), require("fs"), require("/Applications/XAMPP/xamppfiles/docs/netlify-projects/mm-plus/node_modules/lodash/merge.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
+		module.exports = factory(require("/Users/chunhan/Desktop/mm-plus/node_modules/@reach/router/index.js"), require("fs"), require("/Users/chunhan/Desktop/mm-plus/node_modules/lodash/merge.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
 	else if(typeof define === 'function' && define.amd)
-		define("lib", ["/Applications/XAMPP/xamppfiles/docs/netlify-projects/mm-plus/node_modules/@reach/router/index.js", "fs", "/Applications/XAMPP/xamppfiles/docs/netlify-projects/mm-plus/node_modules/lodash/merge.js", "path", "react", "react-dom/server", "react-helmet"], factory);
+		define("lib", ["/Users/chunhan/Desktop/mm-plus/node_modules/@reach/router/index.js", "fs", "/Users/chunhan/Desktop/mm-plus/node_modules/lodash/merge.js", "path", "react", "react-dom/server", "react-helmet"], factory);
 	else if(typeof exports === 'object')
-		exports["lib"] = factory(require("/Applications/XAMPP/xamppfiles/docs/netlify-projects/mm-plus/node_modules/@reach/router/index.js"), require("fs"), require("/Applications/XAMPP/xamppfiles/docs/netlify-projects/mm-plus/node_modules/lodash/merge.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
+		exports["lib"] = factory(require("/Users/chunhan/Desktop/mm-plus/node_modules/@reach/router/index.js"), require("fs"), require("/Users/chunhan/Desktop/mm-plus/node_modules/lodash/merge.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
 	else
-		root["lib"] = factory(root["/Applications/XAMPP/xamppfiles/docs/netlify-projects/mm-plus/node_modules/@reach/router/index.js"], root["fs"], root["/Applications/XAMPP/xamppfiles/docs/netlify-projects/mm-plus/node_modules/lodash/merge.js"], root["path"], root["react"], root["react-dom/server"], root["react-helmet"]);
+		root["lib"] = factory(root["/Users/chunhan/Desktop/mm-plus/node_modules/@reach/router/index.js"], root["fs"], root["/Users/chunhan/Desktop/mm-plus/node_modules/lodash/merge.js"], root["path"], root["react"], root["react-dom/server"], root["react-helmet"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE__reach_router__, __WEBPACK_EXTERNAL_MODULE_fs__, __WEBPACK_EXTERNAL_MODULE_lodash_merge__, __WEBPACK_EXTERNAL_MODULE_path__, __WEBPACK_EXTERNAL_MODULE_react__, __WEBPACK_EXTERNAL_MODULE_react_dom_server__, __WEBPACK_EXTERNAL_MODULE_react_helmet__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -133,7 +133,7 @@ var plugins = [{
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-mdx/gatsby-ssr */ "./node_modules/gatsby-plugin-mdx/gatsby-ssr.js"),
   options: {
     "plugins": [{
-      "resolve": "/Applications/XAMPP/xamppfiles/docs/netlify-projects/mm-plus/node_modules/gatsby-remark-images",
+      "resolve": "/Users/chunhan/Desktop/mm-plus/node_modules/gatsby-remark-images",
       "id": "28c42f28-53d0-5cae-aad5-aee248175898",
       "name": "gatsby-remark-images",
       "version": "3.11.1",
@@ -179,7 +179,7 @@ var plugins = [{
     "remarkPlugins": [],
     "rehypePlugins": [],
     "mediaTypes": ["text/markdown", "text/x-markdown"],
-    "root": "/Applications/XAMPP/xamppfiles/docs/netlify-projects/mm-plus"
+    "root": "/Users/chunhan/Desktop/mm-plus"
   }
 }, {
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-google-analytics/gatsby-ssr */ "./node_modules/gatsby-plugin-google-analytics/gatsby-ssr.js"),
@@ -477,6 +477,27 @@ exports.wrapPageElement = true;
  */
 
 exports.wrapRootElement = true;
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-mdx/mdx-scopes-dir/69d6c085b0db34295064e1e6f68e5ba5.js":
+/*!********************************************************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-mdx/mdx-scopes-dir/69d6c085b0db34295064e1e6f68e5ba5.js ***!
+  \********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var src_components_button__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/components/button */ "./src/components/button.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  Button: src_components_button__WEBPACK_IMPORTED_MODULE_0__["default"],
+  React: react__WEBPACK_IMPORTED_MODULE_1__
+});
 
 /***/ }),
 
@@ -3835,9 +3856,11 @@ module.exports = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-var scope_0 = __webpack_require__(/*! ./.cache/caches/gatsby-plugin-mdx/mdx-scopes-dir/e92f8988d65cf25c087d226e6c0ef06f.js */ "./.cache/caches/gatsby-plugin-mdx/mdx-scopes-dir/e92f8988d65cf25c087d226e6c0ef06f.js").default;
+var scope_0 = __webpack_require__(/*! ./.cache/caches/gatsby-plugin-mdx/mdx-scopes-dir/69d6c085b0db34295064e1e6f68e5ba5.js */ "./.cache/caches/gatsby-plugin-mdx/mdx-scopes-dir/69d6c085b0db34295064e1e6f68e5ba5.js").default;
 
-/* harmony default export */ __webpack_exports__["default"] = (Object.assign({}, scope_0));
+var scope_1 = __webpack_require__(/*! ./.cache/caches/gatsby-plugin-mdx/mdx-scopes-dir/e92f8988d65cf25c087d226e6c0ef06f.js */ "./.cache/caches/gatsby-plugin-mdx/mdx-scopes-dir/e92f8988d65cf25c087d226e6c0ef06f.js").default;
+
+/* harmony default export */ __webpack_exports__["default"] = (Object.assign({}, scope_0, scope_1));
 
 /***/ }),
 
@@ -36543,6 +36566,32 @@ var t=Object.getOwnPropertySymbols,e=Object.prototype.hasOwnProperty,r=Object.pr
 
 /***/ }),
 
+/***/ "./src/components/button.js":
+/*!**********************************!*\
+  !*** ./src/components/button.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
+
+
+
+const Button = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ButtonWrapper, {
+  props: props
+}, props.children);
+
+const ButtonWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].button.withConfig({
+  displayName: "button__ButtonWrapper"
+})(["display:block;border:none;text-align:center;box-sizing:border-box;text-decoration:none;padding:10px 25px;cursor:pointer;text-transform:uppercase;letter-spacing:2px;background:", ";color:", ";font-size:", ";font-weight:", ";border-radius:", ";margin-top:", ";margin-bottom:", ";&:hover{box-shadow:inset 0 0 100px 100px rgba(255,255,255,0.25);}"], props => props.props.background || "black", props => props.props.color || "rgb(255, 255, 255)", props => props.props.fontSize || "15px", props => props.props.fontWeight || "600", props => props.props.radius || "6px", props => props.props.marginTop, props => props.props.marginBottom);
+/* harmony default export */ __webpack_exports__["default"] = (Button);
+
+/***/ }),
+
 /***/ "./src/html.js":
 /*!*********************!*\
   !*** ./src/html.js ***!
@@ -36631,9 +36680,9 @@ const scale = typography.scale;
 /***/ }),
 
 /***/ "@reach/router":
-/*!*******************************************************************************************************************!*\
-  !*** external "/Applications/XAMPP/xamppfiles/docs/netlify-projects/mm-plus/node_modules/@reach/router/index.js" ***!
-  \*******************************************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** external "/Users/chunhan/Desktop/mm-plus/node_modules/@reach/router/index.js" ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -36653,9 +36702,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_fs__;
 /***/ }),
 
 /***/ "lodash/merge":
-/*!************************************************************************************************************!*\
-  !*** external "/Applications/XAMPP/xamppfiles/docs/netlify-projects/mm-plus/node_modules/lodash/merge.js" ***!
-  \************************************************************************************************************/
+/*!******************************************************************************!*\
+  !*** external "/Users/chunhan/Desktop/mm-plus/node_modules/lodash/merge.js" ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
