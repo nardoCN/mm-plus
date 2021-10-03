@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
   repo: nardoCN/mm-plus
+  branch: master
 
 media_folder: content/assets
 public_folder: ../assets
