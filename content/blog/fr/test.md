@@ -3,4 +3,4 @@ path: test-fr
 title: test fr
 description: asd
 ---
-asd
+Fr lang adu
