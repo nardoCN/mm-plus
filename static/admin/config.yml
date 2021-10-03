@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateway
   repo: nardoCN/mm-plus
 
 media_folder: content/assets
